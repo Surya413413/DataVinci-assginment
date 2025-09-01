@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import NestedCheckbox from "../../components/NestedCheckbox";
 
 import styles from "../../styles/styles.js";
+import SearchBar from "../../components/SearchBar";
 
 const ProductsPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
